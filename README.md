@@ -50,3 +50,6 @@ Stay tuned for more learning! 🚀🐍
 
 This table provides a structured overview of **Basic Syntax and Data Types** in Python.
 
+![image](https://github.com/user-attachments/assets/3ca48a09-760f-451d-ae6d-dc3a8381a781)
+
+
