@@ -116,7 +116,7 @@ The `print()` function in Python is used to display output on the screen. It sup
 
 ---
 
-## 🔹 1️⃣ Basic Usage of `print()`
+# 🔹 1️⃣ Basic Usage of `print()`
 
 | **Example** | **Code** | **Output** |
 |------------|---------|------------|
