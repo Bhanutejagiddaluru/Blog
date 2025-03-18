@@ -103,7 +103,7 @@ Converting lists, tuples, sets, and dictionaries.
 ```python
 text = "hello"
 num = int(text)  # ❌ ValueError: invalid literal for int()
-
+```
 
 # Print Statements
 ![image](https://github.com/user-attachments/assets/323e5e06-b89f-42e1-9f71-9a25d7dc5a8e)
@@ -113,7 +113,7 @@ num = int(text)  # ❌ ValueError: invalid literal for int()
 # 📌 Python `print()` Function
 
 The `print()` function in Python is used to display output on the screen. It supports multiple parameters for formatting and customization.
-```
+
 
 # 🔹 1️⃣ Basic Usage of `print()`
 
@@ -138,24 +138,79 @@ The `print()` function in Python is used to display output on the screen. It sup
 
 ---
 
-## 🔹 3️⃣ Advanced Printing Techniques
+# 3️⃣ Advanced Printing Techniques
 
-### **Using `f""` (Formatted String)**
-```python
+# Using f"" (Formatted String)
 name = "Bhanu"
 age = 25
 print(f"My name is {name} and I am {age} years old.")
 # Output: My name is Bhanu and I am 25 years old.
 
-### Printing Variables Inside Strings (Old Method)
-
-# print("My name is {} and I am {} years old.".format(name, age))
+# Printing Variables Inside Strings (Old Method)
+print("My name is {} and I am {} years old.".format(name, age))
 # Output: My name is Bhanu and I am 25 years old.
 
-### Printing in Reverse Order
+# Printing in Reverse Order
 print("Hello"[::-1])  # Output: olleH
 
-### Printing Without a Newline
+# Printing Without a Newline
 print("Hello", end=" ")
 print("World!")
 # Output: Hello World!
+
+# 4️⃣ Printing Special Characters
+
+# Table of Special Characters (as comments)
+"""
+| Character | Usage            | Example |
+|-----------|-----------------|--------------------------------|
+| \n       | Newline         | print("Hello\nWorld") → Hello  |
+|          |                 |                              |
+| \t       | Tab space       | print("Hello\tPython") → Hello    Python |
+| \\       | Print backslash | print("C:\\Users\\Bhanu") → C:\Users\Bhanu |
+| \'       | Single quote    | print('It\'s Python!') → It's Python! |
+| \"       | Double quote    | print("\"Python is great!\"") → "Python is great!" |
+"""
+
+# Newline character
+print("Hello\nWorld")
+# Output:
+# Hello
+# World
+
+# Tab space
+print("Hello\tPython")
+# Output: Hello    Python
+
+# Print a backslash
+print("C:\\Users\\Bhanu")
+# Output: C:\Users\Bhanu
+
+# Single quote inside a string
+print('It\'s Python!')
+# Output: It's Python!
+
+# Double quotes inside a string
+print("\"Python is great!\"")
+# Output: "Python is great!"
+
+# 5️⃣ Print with Emojis & Unicode
+
+# Printing an emoji
+print("Hello 😊")  # Output: Hello 😊
+
+# Printing Unicode character (Heart Symbol)
+print("\u2764")  # Output: ❤
+
+# 6️⃣ Redirecting Print Output to a File
+with open("output.txt", "w") as f:
+    print("This is saved in a file.", file=f)
+
+# 7️⃣ Common Mistakes in print()
+
+# ✅ Correct usage of separators and end parameters
+print("Hello", "World", sep="-", end="!")  # Output: Hello-World!
+
+# ❌ Incorrect usage - Missing comma before sep
+# print("Hello", "World" sep="-")  # SyntaxError: Missing comma
+
