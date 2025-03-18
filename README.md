@@ -24,6 +24,7 @@ Understanding the fundamental building blocks of Python.
 This section will provide a step-by-step explanation of Python’s fundamental concepts, ensuring a strong foundation for advanced topics.
 
 ---
+Some Sources used in the Blogs are https://javaconceptoftheday.com/division-operators-in-python/
 
 # 📌 Basic Syntax and Data Types in Python
 
@@ -49,4 +50,9 @@ This table provides a structured overview of **Basic Syntax and Data Types** in 
 ![image](https://github.com/user-attachments/assets/b5f376f5-54ad-4bbe-a426-3dd113fd25ce)
 
 ![image](https://github.com/user-attachments/assets/52916b28-931e-491e-89bd-62c8929551d9)
+
+Python Operators
+![image](https://github.com/user-attachments/assets/93f47230-3192-4323-9189-3fc3378789d8)
+
+![image](https://github.com/user-attachments/assets/611b9783-427c-45a0-8292-1ba4294df156)
 
