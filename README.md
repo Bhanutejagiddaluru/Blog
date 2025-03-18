@@ -138,27 +138,16 @@ The `print()` function in Python is used to display output on the screen. It sup
 
 ---
 
-## 3️⃣ Advanced Printing Techniques
+# 📌 Advanced Printing Techniques in Python
 
-### Using f"" (Formatted String)
-name = "Bhanu"
-age = 25
-print(f"My name is {name} and I am {age} years old.")
-#### Output: My name is Bhanu and I am 25 years old.
+## 🔹 1️⃣ Using `f""` (Formatted String)
+| **Description** | **Code** | **Output** |
+|---------------|---------|------------|
+| Insert variables in a string | `name = "Bhanu"`<br>`age = 25`<br>`print(f"My name is {name} and I am {age} years old.")` | `My name is Bhanu and I am 25 years old.` |
+| Math operations inside `f""` | `a, b = 5, 10`<br>`print(f"Sum: {a + b}")` | `Sum: 15` |
+| Formatting float values | `pi = 3.14159`<br>`print(f"Pi: {pi:.2f}")` | `Pi: 3.14` |
 
-## Printing Variables Inside Strings (Old Method)
-### print("My name is {} and I am {} years old.".format(name, age))
-##### Output: My name is Bhanu and I am 25 years old.
-
-## Printing in Reverse Order
-#### print("Hello"[::-1])  # Output: olleH
-
-## Printing Without a Newline
-####print("Hello", end=" ")
-#### print("World!")
-# Output: Hello World!
-
-# 4️⃣ Printing Special Characters
+---
 
 # Table of Special Characters (as comments)
 """
@@ -171,17 +160,6 @@ print(f"My name is {name} and I am {age} years old.")
 | \'       | Single quote    | print('It\'s Python!') → It's Python! |
 | \"       | Double quote    | print("\"Python is great!\"") → "Python is great!" |
 """
-
-# 📌 Advanced Printing Techniques in Python
-
-## 🔹 1️⃣ Using `f""` (Formatted String)
-| **Description** | **Code** | **Output** |
-|---------------|---------|------------|
-| Insert variables in a string | `name = "Bhanu"`<br>`age = 25`<br>`print(f"My name is {name} and I am {age} years old.")` | `My name is Bhanu and I am 25 years old.` |
-| Math operations inside `f""` | `a, b = 5, 10`<br>`print(f"Sum: {a + b}")` | `Sum: 15` |
-| Formatting float values | `pi = 3.14159`<br>`print(f"Pi: {pi:.2f}")` | `Pi: 3.14` |
-
----
 
 ## 🔹 2️⃣ Old-Style String Formatting
 | **Description** | **Code** | **Output** |
