@@ -105,4 +105,58 @@ text = "hello"
 num = int(text)  # ❌ ValueError: invalid literal for int()
 
 
+# Print Statements
+![image](https://github.com/user-attachments/assets/323e5e06-b89f-42e1-9f71-9a25d7dc5a8e)
 
+![image](https://github.com/user-attachments/assets/5f420d2b-14a3-412c-9c55-799dd1893394)
+
+# 📌 Python `print()` Function
+
+The `print()` function in Python is used to display output on the screen. It supports multiple parameters for formatting and customization.
+
+---
+
+## 🔹 1️⃣ Basic Usage of `print()`
+
+| **Example** | **Code** | **Output** |
+|------------|---------|------------|
+| Print a String | `print("Hello, World!")` | `Hello, World!` |
+| Print Multiple Arguments | `print("Hello", "Python", 2025)` | `Hello Python 2025` |
+| Print with Separator | `print("A", "B", "C", sep="-")` | `A-B-C` |
+| Print with End Parameter | `print("Hello", end=" ")` <br> `print("World!")` | `Hello World!` |
+| Print a Newline Character | `print("Line1\nLine2")` | `Line1` <br> `Line2` |
+
+---
+
+## 🔹 2️⃣ `print()` Function Parameters
+
+| **Parameter** | **Description** | **Example** |
+|--------------|----------------|-------------|
+| `sep` | Defines a separator between multiple arguments. | `print("Python", "Rocks", sep="🎉")` → `Python🎉Rocks` |
+| `end` | Defines what comes at the end instead of a newline. | `print("Hello", end="!")` → `Hello!` |
+| `file` | Redirects output to a file. | `print("Hello", file=open("output.txt", "w"))` |
+| `flush` | Forces the output to be printed immediately. | `print("Loading...", flush=True)` |
+
+---
+
+## 🔹 3️⃣ Advanced Printing Techniques
+
+### **Using `f""` (Formatted String)**
+```python
+name = "Bhanu"
+age = 25
+print(f"My name is {name} and I am {age} years old.")
+# Output: My name is Bhanu and I am 25 years old.
+
+### Printing Variables Inside Strings (Old Method)
+
+# print("My name is {} and I am {} years old.".format(name, age))
+# Output: My name is Bhanu and I am 25 years old.
+
+### Printing in Reverse Order
+print("Hello"[::-1])  # Output: olleH
+
+### Printing Without a Newline
+print("Hello", end=" ")
+print("World!")
+# Output: Hello World!
