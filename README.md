@@ -53,3 +53,8 @@ This table provides a structured overview of **Basic Syntax and Data Types** in 
 ![image](https://github.com/user-attachments/assets/3ca48a09-760f-451d-ae6d-dc3a8381a781)
 
 
+![image](https://github.com/user-attachments/assets/4cc9d187-f7dd-4c51-8cba-ccb089315267)
+
+![image](https://github.com/user-attachments/assets/b5f376f5-54ad-4bbe-a426-3dd113fd25ce)
+
+
