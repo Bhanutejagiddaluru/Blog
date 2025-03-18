@@ -54,5 +54,6 @@ This table provides a structured overview of **Basic Syntax and Data Types** in 
 Python Operators
 ![image](https://github.com/user-attachments/assets/93f47230-3192-4323-9189-3fc3378789d8)
 
+Python Difference between / and // operators
 ![image](https://github.com/user-attachments/assets/611b9783-427c-45a0-8292-1ba4294df156)
 
