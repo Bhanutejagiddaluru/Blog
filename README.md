@@ -49,6 +49,7 @@ This table provides a structured overview of **Basic Syntax and Data Types** in 
 
 ![image](https://github.com/user-attachments/assets/b5f376f5-54ad-4bbe-a426-3dd113fd25ce)
 
+Python Data Types
 ![image](https://github.com/user-attachments/assets/52916b28-931e-491e-89bd-62c8929551d9)
 
 Python Operators
