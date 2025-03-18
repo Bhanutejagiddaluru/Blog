@@ -43,7 +43,6 @@ This section will provide a step-by-step explanation of Python’s fundamental c
 
 This table provides a structured overview of **Basic Syntax and Data Types** in Python.
 
-![image](https://github.com/user-attachments/assets/3ca48a09-760f-451d-ae6d-dc3a8381a781)
 ![image](https://github.com/user-attachments/assets/a5963932-4b71-48ac-be92-c6a6e9e46354)
 ![image](https://github.com/user-attachments/assets/32ebbbae-485d-4664-9104-cf6ae6032885)
 
