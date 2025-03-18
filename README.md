@@ -149,18 +149,6 @@ The `print()` function in Python is used to display output on the screen. It sup
 
 ---
 
-# Table of Special Characters (as comments)
-"""
-| Character | Usage            | Example |
-|-----------|-----------------|--------------------------------|
-| \n       | Newline         | print("Hello\nWorld") → Hello  |
-|          |                 |                              |
-| \t       | Tab space       | print("Hello\tPython") → Hello    Python |
-| \\       | Print backslash | print("C:\\Users\\Bhanu") → C:\Users\Bhanu |
-| \'       | Single quote    | print('It\'s Python!') → It's Python! |
-| \"       | Double quote    | print("\"Python is great!\"") → "Python is great!" |
-"""
-
 ## 🔹 2️⃣ Old-Style String Formatting
 | **Description** | **Code** | **Output** |
 |---------------|---------|------------|
