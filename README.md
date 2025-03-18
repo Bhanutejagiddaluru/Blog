@@ -113,8 +113,7 @@ num = int(text)  # ❌ ValueError: invalid literal for int()
 # 📌 Python `print()` Function
 
 The `print()` function in Python is used to display output on the screen. It supports multiple parameters for formatting and customization.
-
----
+```
 
 # 🔹 1️⃣ Basic Usage of `print()`
 
