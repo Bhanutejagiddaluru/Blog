@@ -25,13 +25,6 @@ This section will provide a step-by-step explanation of Python’s fundamental c
 
 ---
 
-🔗 **For more resources and updates, visit:**  
-👉 [bhanutejagiddaluru.github.io/portfolio](https://bhanutejagiddaluru.github.io/portfolio)  
-
-Stay tuned for more learning! 🚀🐍
-
-
-
 # 📌 Basic Syntax and Data Types in Python
 
 ## 📝 Table of Contents
@@ -51,10 +44,10 @@ Stay tuned for more learning! 🚀🐍
 This table provides a structured overview of **Basic Syntax and Data Types** in Python.
 
 ![image](https://github.com/user-attachments/assets/3ca48a09-760f-451d-ae6d-dc3a8381a781)
-
-
-![image](https://github.com/user-attachments/assets/4cc9d187-f7dd-4c51-8cba-ccb089315267)
+![image](https://github.com/user-attachments/assets/a5963932-4b71-48ac-be92-c6a6e9e46354)
+![image](https://github.com/user-attachments/assets/32ebbbae-485d-4664-9104-cf6ae6032885)
 
 ![image](https://github.com/user-attachments/assets/b5f376f5-54ad-4bbe-a426-3dd113fd25ce)
 
+![image](https://github.com/user-attachments/assets/52916b28-931e-491e-89bd-62c8929551d9)
 
