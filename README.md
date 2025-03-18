@@ -62,74 +62,47 @@ Python Difference between / and // operators
 Python Type Conversions
 ![image](https://github.com/user-attachments/assets/2fa7a246-b97b-4019-9594-d11c851b4e34)
 
-# 📌 Implicit Type Conversion (Automatic)
+# 📌 Type Conversion in Python
 
-# Integer to Float
-a = 10       # Integer
-b = 3.5      # Float
-result = a + b  # Python converts 'a' (int) to float automatically
-print(result)   # Output: 13.5
-print(type(result))  # Output: <class 'float'>
+## 🔹 1️⃣ Implicit Type Conversion (Automatic)
+Python automatically converts one data type to another when needed.
 
-# Integer to Float in Division
-x = 5
-y = 2.0
-z = x / y   # Python automatically converts 'x' to float
-print(z)    # Output: 2.5
-print(type(z))  # Output: <class 'float'>
+| **Example** | **Code** | **Output** |
+|------------|---------|------------|
+| Integer to Float | `a = 10`  <br> `b = 3.5`  <br> `result = a + b`  <br> `print(type(result))` | `<class 'float'>` |
+| Integer to Float (Division) | `x = 5`  <br> `y = 2.0`  <br> `z = x / y`  <br> `print(type(z))` | `<class 'float'>` |
 
-# 📌 Explicit Type Conversion (Manual)
+---
 
-# Float to Integer
-a = 5.9
-b = int(a)   # Explicitly converting float to int
-print(b)     # Output: 5 (Decimal part removed)
-print(type(b))  # Output: <class 'int'>
+## 🔹 2️⃣ Explicit Type Conversion (Manual)
+We use built-in functions to manually convert data types.
 
-# String to Integer
-num_str = "100"
-num_int = int(num_str)  # Converts string "100" to integer 100
-print(num_int + 10)  # Output: 110
-print(type(num_int))  # Output: <class 'int'>
+| **Conversion** | **Code** | **Output** |
+|--------------|---------|------------|
+| Float to Integer | `a = 5.9`  <br> `b = int(a)`  <br> `print(b, type(b))` | `5 <class 'int'>` |
+| String to Integer | `num_str = "100"`  <br> `num_int = int(num_str)`  <br> `print(num_int, type(num_int))` | `100 <class 'int'>` |
+| Integer to String | `num = 42`  <br> `num_str = str(num)`  <br> `print(num_str, type(num_str))` | `"42" <class 'str'>` |
+| String to Float | `str_num = "12.34"`  <br> `float_num = float(str_num)`  <br> `print(float_num, type(float_num))` | `12.34 <class 'float'>` |
 
-# Integer to String
-num = 42
-num_str = str(num)  # Converts integer to string
-print(num_str + " is a number")  # Output: "42 is a number"
-print(type(num_str))  # Output: <class 'str'>
+---
 
-# String to Float
-str_num = "12.34"
-float_num = float(str_num)  # Converts string to float
-print(float_num + 1.66)  # Output: 14.0
-print(type(float_num))  # Output: <class 'float'>
+## 🔹 3️⃣ Collection Type Conversion
+Converting lists, tuples, sets, and dictionaries.
 
-# List to Tuple
-list_data = [1, 2, 3]
-tuple_data = tuple(list_data)
-print(tuple_data)  # Output: (1, 2, 3)
-print(type(tuple_data))  # Output: <class 'tuple'>
+| **Conversion** | **Code** | **Output** |
+|--------------|---------|------------|
+| List to Tuple | `list_data = [1, 2, 3]`  <br> `tuple_data = tuple(list_data)`  <br> `print(tuple_data, type(tuple_data))` | `(1, 2, 3) <class 'tuple'>` |
+| Tuple to List | `tuple_data = (4, 5, 6)`  <br> `list_data = list(tuple_data)`  <br> `print(list_data, type(list_data))` | `[4, 5, 6] <class 'list'>` |
+| Set to List | `set_data = {7, 8, 9}`  <br> `list_data = list(set_data)`  <br> `print(list_data, type(list_data))` | `[7, 8, 9] <class 'list'>` |
+| Dictionary Keys to List | `dict_data = {'a': 1, 'b': 2, 'c': 3}`  <br> `keys_list = list(dict_data.keys())`  <br> `print(keys_list, type(keys_list))` | `['a', 'b', 'c'] <class 'list'>` |
 
-# Tuple to List
-tuple_data = (4, 5, 6)
-list_data = list(tuple_data)
-print(list_data)  # Output: [4, 5, 6]
-print(type(list_data))  # Output: <class 'list'>
+---
 
-# Set to List
-set_data = {7, 8, 9}
-list_data = list(set_data)
-print(list_data)  # Output: [7, 8, 9]
-print(type(list_data))  # Output: <class 'list'>
-
-# Dictionary Keys to List
-dict_data = {'a': 1, 'b': 2, 'c': 3}
-keys_list = list(dict_data.keys())
-print(keys_list)  # Output: ['a', 'b', 'c']
-print(type(keys_list))  # Output: <class 'list'>
-
-# Common Mistake: Converting Non-Numeric String to Integer
+## ❌ Common Mistake: Invalid Type Conversion
+🚨 **Trying to convert an invalid string to an integer will cause an error.**
+```python
 text = "hello"
-# num = int(text)  # ❌ This will raise ValueError
+num = int(text)  # ❌ ValueError: invalid literal for int()
+
 
 
