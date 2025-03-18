@@ -29,3 +29,24 @@ This section will provide a step-by-step explanation of Python’s fundamental c
 👉 [bhanutejagiddaluru.github.io/portfolio](https://bhanutejagiddaluru.github.io/portfolio)  
 
 Stay tuned for more learning! 🚀🐍
+
+
+
+# 📌 Basic Syntax and Data Types in Python
+
+## 📝 Table of Contents
+
+| **Topic**                   | **Description** |
+|-----------------------------|----------------|
+| **Variables**               | Storing values in named references. |
+| **Variable Naming Rules**    | Rules and best practices for naming variables. |
+| **Data Types**              | Understanding different types: integers, floats, strings, lists, tuples, sets, and dictionaries. |
+| **Mutable vs Immutable**    | Difference between mutable (lists, dictionaries) and immutable (strings, tuples) objects. |
+| **Type Conversion**         | Converting between different data types (`int()`, `float()`, `str()`, `list()`, etc.). |
+| **Operators**               | Arithmetic (`+`, `-`, `*`, `/`), Comparison (`==`, `!=`, `>`, `<`), Logical (`and`, `or`, `not`), Bitwise, Assignment, Membership, and Identity operators. |
+| **Comments in Python**      | Single-line (`#`) and multi-line (`""" """`) comments. |
+| **User Input**              | Taking user input using `input()`. |
+| **Print Function**          | Printing output and using format specifiers (`print()`, `f-strings`). |
+
+This table provides a structured overview of **Basic Syntax and Data Types** in Python.
+
