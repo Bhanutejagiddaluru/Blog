@@ -58,3 +58,78 @@ Python Operators
 Python Difference between / and // operators
 ![image](https://github.com/user-attachments/assets/611b9783-427c-45a0-8292-1ba4294df156)
 
+
+Python Type Conversions
+![image](https://github.com/user-attachments/assets/2fa7a246-b97b-4019-9594-d11c851b4e34)
+
+# 📌 Implicit Type Conversion (Automatic)
+
+# Integer to Float
+a = 10       # Integer
+b = 3.5      # Float
+result = a + b  # Python converts 'a' (int) to float automatically
+print(result)   # Output: 13.5
+print(type(result))  # Output: <class 'float'>
+
+# Integer to Float in Division
+x = 5
+y = 2.0
+z = x / y   # Python automatically converts 'x' to float
+print(z)    # Output: 2.5
+print(type(z))  # Output: <class 'float'>
+
+# 📌 Explicit Type Conversion (Manual)
+
+# Float to Integer
+a = 5.9
+b = int(a)   # Explicitly converting float to int
+print(b)     # Output: 5 (Decimal part removed)
+print(type(b))  # Output: <class 'int'>
+
+# String to Integer
+num_str = "100"
+num_int = int(num_str)  # Converts string "100" to integer 100
+print(num_int + 10)  # Output: 110
+print(type(num_int))  # Output: <class 'int'>
+
+# Integer to String
+num = 42
+num_str = str(num)  # Converts integer to string
+print(num_str + " is a number")  # Output: "42 is a number"
+print(type(num_str))  # Output: <class 'str'>
+
+# String to Float
+str_num = "12.34"
+float_num = float(str_num)  # Converts string to float
+print(float_num + 1.66)  # Output: 14.0
+print(type(float_num))  # Output: <class 'float'>
+
+# List to Tuple
+list_data = [1, 2, 3]
+tuple_data = tuple(list_data)
+print(tuple_data)  # Output: (1, 2, 3)
+print(type(tuple_data))  # Output: <class 'tuple'>
+
+# Tuple to List
+tuple_data = (4, 5, 6)
+list_data = list(tuple_data)
+print(list_data)  # Output: [4, 5, 6]
+print(type(list_data))  # Output: <class 'list'>
+
+# Set to List
+set_data = {7, 8, 9}
+list_data = list(set_data)
+print(list_data)  # Output: [7, 8, 9]
+print(type(list_data))  # Output: <class 'list'>
+
+# Dictionary Keys to List
+dict_data = {'a': 1, 'b': 2, 'c': 3}
+keys_list = list(dict_data.keys())
+print(keys_list)  # Output: ['a', 'b', 'c']
+print(type(keys_list))  # Output: <class 'list'>
+
+# Common Mistake: Converting Non-Numeric String to Integer
+text = "hello"
+# num = int(text)  # ❌ This will raise ValueError
+
+
