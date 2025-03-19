@@ -5,6 +5,12 @@ Version control is an essential part of software development, allowing teams to 
 
 In this guide, we will explore the basics of GitHub version control, from setting up a repository to managing branches and pull requests.
 
+
+![image](https://github.com/user-attachments/assets/6d110d79-f510-433e-85f6-c08a61063fa2)
+![image](https://github.com/user-attachments/assets/e822d781-3da6-4735-be84-7b96ab6b5893)
+
+![image](https://github.com/user-attachments/assets/20b133b8-5c91-48d6-bee5-307e9809bb69)
+
 ---
 
 ## 1. Setting Up a GitHub Repository
@@ -107,6 +113,9 @@ git reset --hard <commit-hash>
 Moves your branch back to a specific commit (Caution: This deletes changes permanently).
 
 ---
+
+![image](https://github.com/user-attachments/assets/c18e9614-a72d-497e-82c3-582acf8c2c5d)
+
 
 ## Conclusion
 GitHub version control is a powerful tool for developers. By mastering Git commands, branches, and pull requests, you can efficiently manage and collaborate on projects. Start using GitHub today to streamline your development workflow!
